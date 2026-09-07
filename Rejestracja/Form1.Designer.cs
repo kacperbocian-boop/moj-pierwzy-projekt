@@ -1,0 +1,146 @@
+﻿namespace Rejestracja
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label lblRoom;
+        private System.Windows.Forms.TextBox txtRoom;
+        private System.Windows.Forms.Label lblIssue;
+        private System.Windows.Forms.ComboBox cmbIssue;
+        private System.Windows.Forms.Label lblDescription;
+        private System.Windows.Forms.TextBox txtDescription;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Label lblSummaryTitle;
+        private System.Windows.Forms.TextBox txtSummary;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            lblName = new System.Windows.Forms.Label();
+            txtName = new System.Windows.Forms.TextBox();
+            lblRoom = new System.Windows.Forms.Label();
+            txtRoom = new System.Windows.Forms.TextBox();
+            lblIssue = new System.Windows.Forms.Label();
+            cmbIssue = new System.Windows.Forms.ComboBox();
+            lblDescription = new System.Windows.Forms.Label();
+            txtDescription = new System.Windows.Forms.TextBox();
+            btnAdd = new System.Windows.Forms.Button();
+            btnClear = new System.Windows.Forms.Button();
+            lblSummaryTitle = new System.Windows.Forms.Label();
+            txtSummary = new System.Windows.Forms.TextBox();
+            SuspendLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(700, 420);
+            Name = "Form1";
+            Text = "Serwis komputerowy";
+            lblName.AutoSize = true;
+            lblName.Location = new Point(12, 15);
+            lblName.Name = "lblName";
+            lblName.Size = new Size(120, 15);
+            lblName.Text = "Imię i nazwisko:";
+            txtName.Location = new Point(140, 12);
+            txtName.Name = "txtName";
+            txtName.Size = new Size(200, 23);
+            lblRoom.AutoSize = true;
+            lblRoom.Location = new Point(12, 50);
+            lblRoom.Name = "lblRoom";
+            lblRoom.Size = new Size(80, 15);
+            lblRoom.Text = "Numer sali:";
+            txtRoom.Location = new Point(140, 47);
+            txtRoom.Name = "txtRoom";
+            txtRoom.Size = new Size(100, 23);
+            lblIssue.AutoSize = true;
+            lblIssue.Location = new Point(12, 85);
+            lblIssue.Name = "lblIssue";
+            lblIssue.Size = new Size(110, 15);
+            lblIssue.Text = "Rodzaj usterki:";
+            cmbIssue.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cmbIssue.Location = new Point(140, 82);
+            cmbIssue.Name = "cmbIssue";
+            cmbIssue.Size = new Size(200, 23);
+            cmbIssue.Items.AddRange(new object[] {
+            "Brak Internetu",
+            "Uszkodzony monitor",
+            "Problem z logowaniem",
+            "Niedziałająca drukarka",
+            "Awaria komputera"});
+            cmbIssue.SelectedIndex = 0;
+            lblDescription.AutoSize = true;
+            lblDescription.Location = new Point(12, 120);
+            lblDescription.Name = "lblDescription";
+            lblDescription.Size = new Size(46, 15);
+            lblDescription.Text = "Opis:";
+            txtDescription.Location = new Point(12, 140);
+            txtDescription.Multiline = true;
+            txtDescription.Name = "txtDescription";
+            txtDescription.Size = new Size(460, 120);
+            txtDescription.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            btnAdd.Location = new Point(12, 275);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(120, 30);
+            btnAdd.Text = "Dodaj zgłoszenie";
+            btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
+            btnClear.Location = new Point(150, 275);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(120, 30);
+            btnClear.Text = "Wyczyść formularz";
+            btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += btnClear_Click;
+            lblSummaryTitle.AutoSize = true;
+            lblSummaryTitle.Location = new Point(490, 15);
+            lblSummaryTitle.Name = "lblSummaryTitle";
+            lblSummaryTitle.Size = new Size(67, 15);
+            lblSummaryTitle.Text = "Podsumowanie:";
+            txtSummary.Location = new Point(490, 40);
+            txtSummary.Multiline = true;
+            txtSummary.Name = "txtSummary";
+            txtSummary.Size = new Size(190, 265);
+            txtSummary.ReadOnly = true;
+            txtSummary.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            Controls.Add(lblName);
+            Controls.Add(txtName);
+            Controls.Add(lblRoom);
+            Controls.Add(txtRoom);
+            Controls.Add(lblIssue);
+            Controls.Add(cmbIssue);
+            Controls.Add(lblDescription);
+            Controls.Add(txtDescription);
+            Controls.Add(btnAdd);
+            Controls.Add(btnClear);
+            Controls.Add(lblSummaryTitle);
+            Controls.Add(txtSummary);
+            Load += Form1_Load;
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+    }
+}

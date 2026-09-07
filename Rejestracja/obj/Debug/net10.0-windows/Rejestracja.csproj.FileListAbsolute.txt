@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\Rejestracja\Rejestracja\bin\Debug\net10.0-windows\Rejestracja.exe
+C:\Users\User\source\repos\Rejestracja\Rejestracja\bin\Debug\net10.0-windows\Rejestracja.deps.json
+C:\Users\User\source\repos\Rejestracja\Rejestracja\bin\Debug\net10.0-windows\Rejestracja.runtimeconfig.json
+C:\Users\User\source\repos\Rejestracja\Rejestracja\bin\Debug\net10.0-windows\Rejestracja.dll
+C:\Users\User\source\repos\Rejestracja\Rejestracja\bin\Debug\net10.0-windows\Rejestracja.pdb
+C:\Users\User\source\repos\Rejestracja\Rejestracja\obj\Debug\net10.0-windows\Rejestracja.Form1.resources
+C:\Users\User\source\repos\Rejestracja\Rejestracja\obj\Debug\net10.0-windows\Rejestracja.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Rejestracja\Rejestracja\obj\Debug\net10.0-windows\Rejestracja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Rejestracja\Rejestracja\obj\Debug\net10.0-windows\Rejestracja.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Rejestracja\Rejestracja\obj\Debug\net10.0-windows\Rejestracja.AssemblyInfo.cs
+C:\Users\User\source\repos\Rejestracja\Rejestracja\obj\Debug\net10.0-windows\Rejestracja.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Rejestracja\Rejestracja\obj\Debug\net10.0-windows\Rejestracja.dll
+C:\Users\User\source\repos\Rejestracja\Rejestracja\obj\Debug\net10.0-windows\refint\Rejestracja.dll
+C:\Users\User\source\repos\Rejestracja\Rejestracja\obj\Debug\net10.0-windows\Rejestracja.pdb
+C:\Users\User\source\repos\Rejestracja\Rejestracja\obj\Debug\net10.0-windows\Rejestracja.genruntimeconfig.cache
+C:\Users\User\source\repos\Rejestracja\Rejestracja\obj\Debug\net10.0-windows\ref\Rejestracja.dll
