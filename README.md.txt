@@ -1,1 +1,1 @@
-oto program ktory daje mozliwosc rejestracji
+oto program ktory daje mozliwosc rejestracji czytaj mnie!!
